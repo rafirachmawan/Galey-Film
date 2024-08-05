@@ -23,7 +23,7 @@ h1{
 	/* overflow: hidden; */
 	border: 5px solid #666;
 	float: left;
-	margin-right: 10px;
+	margin-right: 20px;
 	position: relative;
 }
 .Gallery li,
@@ -44,9 +44,12 @@ h1{
 	color: #333;
 	text-shadow: 1px 1px 1px #ddd;
 	opacity: 0;
+	transform: scale(0) rotate(0);
+	transition: .3s;
 }
 .Gallery li a:hover span {
 opacity: 1;
+transform: scale(1) rotate(360deg);
 }
 
 .clear{
