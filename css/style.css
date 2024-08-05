@@ -20,9 +20,33 @@ h1{
 	width: 120px;
 	height: 120px;
 	border-radius: 50%;
-	overflow: hidden;
+	/* overflow: hidden; */
 	border: 5px solid #666;
 	float: left;
+	margin-right: 10px;
+	position: relative;
+}
+.Gallery li,
+.Gallery li img,
+.Gallery li span{
+	border-radius: 60%;
+}
+.Gallery li span {
+	display: block;
+	width: 120px;
+	height: 120px;
+	background-color: rgba(200,200,200,.5);
+	position: absolute;
+	top: 0px;
+	text-align: center;
+	line-height: 120px;
+	font-size: 16px;
+	color: #333;
+	text-shadow: 1px 1px 1px #ddd;
+	opacity: 0;
+}
+.Gallery li a:hover span {
+opacity: 1;
 }
 
 .clear{
