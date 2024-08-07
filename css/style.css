@@ -96,6 +96,21 @@ transform: scale(1) rotate(360deg);
 .overlay:target .close{
 	animation: slideDownFade .5s .5s forwards;
 }
+/* navigasi */
+.next, .prev {
+	width: 50px;
+	height: 50px;
+	background-image: url(../img/right.png);
+	position: absolute;
+	text-indent: -9999px;
+	top: 40%;
+	margin-left: 50px;
+}
+
+.prev{
+	background-image: url(../img/left.png);
+	margin-left: -100px;
+}
 /* Animasi */
 @keyframes zoomDanFade{
 	0% {
