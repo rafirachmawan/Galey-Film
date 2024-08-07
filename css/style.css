@@ -94,7 +94,7 @@ transform: scale(1) rotate(360deg);
 }
 
 .overlay:target .close{
-	animation: slideDownfade .5s .5s forwards;
+	animation: slideDownFade .5s .5s forwards;
 }
 /* Animasi */
 @keyframes zoomDanFade{
